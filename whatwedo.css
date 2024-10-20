@@ -1,0 +1,330 @@
+/* GENERAL */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0; 
+    
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+
+    
+    
+}
+
+
+/* GRID */
+
+.internalservices-top{
+    height: 400px;
+}
+.whatwedo-bottom{
+    display: flex;
+    gap: 50px;
+    flex-direction: column; 
+}
+
+.internalservices-bottom{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.internalservices-heading{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.internalservices-p{
+    max-width: 550px;
+    margin-top: 80px;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size:18px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+
+.video{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.whatwedo-video{
+    margin-left:25px;
+    margin-top: -25px;
+}
+
+/* BOTTOMS */
+
+.bottom1{
+    display:flex;
+    gap: 50px;
+}
+
+.bottom2{
+    margin-top: 80px;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    
+   
+}
+
+.bottom3{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 70px;
+    margin-left: -70px;
+
+}
+
+.whatwedo-bottom a{
+    text-decoration: none;
+}
+
+
+/* BATHROOMS */
+
+.bathroom-link{
+    margin-left: 0px;
+    border-color:rgb(34, 35, 35);
+    border: 2px solid #000;
+}
+
+.bathroom-text{
+    color: black;
+    background-color: transparent;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;      
+}
+.bathroom-link:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    
+}
+.bathroom-link:active{
+    opacity: 0.7;
+}
+
+.bathroom-text a{
+    text-decoration: none; 
+    color: inherit;
+}
+.bathroom-link:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/* BEDROOMS */
+
+.bedroom-link{
+    margin-left: -50px;
+    border-color:rgb(34, 35, 35);
+    border: 2px solid #000;
+}
+
+.bedroom-text{
+    color: black;
+    background-color: transparent;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;      
+}
+.bedroom-link:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    
+}
+.bedroom-link:active{
+    opacity: 0.7;
+}
+
+.bedroom-text a{
+    text-decoration: none; 
+    color: inherit;
+}
+.bedroom-link:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+/* KITCHENS */
+
+
+
+.kitchen-link{
+    margin-left:70px;
+    margin-top: 20px;
+    border: 2px solid #000;
+}
+
+.kitchen-text{
+    color: black;
+    background-color: transparent;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;      
+}
+.kitchen-link:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    
+}
+.kitchen-link:active{
+    opacity: 0.7;
+}
+
+.kitchen-text a{
+    text-decoration: none; 
+    color: inherit;
+}
+.kitchen-link:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+/* LIVING ROOM */
+
+
+.livingroom-link{
+    margin-left: -50px;
+    margin-top:20px;
+    border: 2px solid #000;
+}
+
+.livingroom-text{
+    color: black;
+    background-color: transparent;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;      
+}
+.livingroom-link:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    
+}
+.livingroom-link:active{
+    opacity: 0.7;
+}
+
+.livingroom-text a{
+    text-decoration: none; 
+    color: inherit;
+}
+.livingroom-link:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+
+
+/* BACKGROUNDS */
+
+
+.whatwedobackground{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/whatwedo.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+.bedroombackground{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/bedroom.jpg);
+    height: 400px;
+}
+
+.bathroombackground{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/bathroom.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+
+.livingroombackground{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/livingroom.jpg);
+    background-size: 100%;
+    height: 400px; 
+}
+
+.kitchenbackground{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/kitchen.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+
